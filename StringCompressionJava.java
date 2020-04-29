@@ -12,8 +12,6 @@ class Main {
     System.out.println(compressGetLen(test, false));
   }
 
-  // space = O(n)
-  // time = O(1)
   public static List<String> compressGetLen(char[] input, boolean debug) {
     List<String> response = new ArrayList<>();
     Map<Character, Integer> data = new HashMap<>();
